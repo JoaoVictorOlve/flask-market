@@ -5,5 +5,14 @@ Home Page
 {% endblock%}
 
 {% block content %}
-  <h1>Home Page</h1>
+<!-- Header-->
+<div class="bg-dark bg-gradient text-white" style="padding:5vw; margin:3vw">
+  <div class="container px-4 text-center">
+      <h1 class="fw-bolder">Welcome to the Flask Market!</h1>
+      <p class="lead">Purchase our items in the best online market of North Ireland</p>
+      <a class="btn btn-lg bg-primary text-white" href="{{url_for('market_page')}}">Get started!</a>
+  </div>
+</div>
+<!-- About section-->
+
 {% endblock %}
