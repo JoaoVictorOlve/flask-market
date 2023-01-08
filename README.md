@@ -15,3 +15,5 @@ Tools Used
 * [Html](https://pt.wikipedia.org/wiki/HTML5) - Hypertext Markup Language
 * [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Cascading Style Sheets
 * [SQLite](https://www.sqlite.org/index.html) - SQL database engine
+* [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) - Framework used for the creation of websites and web apps. 
+
