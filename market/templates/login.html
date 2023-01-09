@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% block title %}
 Login Page
 {% endblock %}
@@ -10,7 +10,7 @@ Login Page
 
         <h1>Sign In</h1>
 
-        <form method="POST" class="form-signin" style="color:white">
+        <form id="login_form" method="POST" class="form-signin">
             {{ form.hidden_tag() }}
 
             {{ form.username.label() }}
